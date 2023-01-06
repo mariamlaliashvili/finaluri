@@ -2,15 +2,17 @@
     max-width: 1366px;
     width: 100%;
     margin: 0 auto;
+    background: #f6f8f9;
 }
 header{
     width: 100%;
     height: 50px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 21px 19px 20px ;
 }
 ul{
     display: flex;
@@ -18,14 +20,110 @@ ul{
     gap: 30px;
 }
 .home:hover{
-    text-decoration: underline red;    
+    border-bottom: 3px solid red;    
 }
 
 .opacity{
     opacity: 0.5;
 }
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
 .first{
     width: 70%;
     height: 599px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    background-color: white;
+    position: relative;
+   
+}
+.firstext{
+    position: absolute;
+    margin: 170px auto 0 140px;
+}
+.line1{
+    width: 562px;
+    height: 2px;
+    margin-top: 60px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+.p1{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.phototext{
+    margin-top: 10px;
+    color: #ffffff;
+    width: 520px;
+}
+.pink{
+    width: 134px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pinktext{
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 10px;
+}
+.photo1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.second{
+    width: 30%;
+    height: 599px;
+    /* border: 2px solid black; */
+    background-color: white;
+
+}
+.contsecond{
+    width: 80%;
+    /* border: 2px solid black; */
+    margin: 80px auto 0 auto;
+    
+}
+h1{
+    font-size: 24px;
+font-weight: bold;
+
+}
+.line{
+    width: 300px;
+    height: 2px;
+    border-radius: 20px;
+    background-color: black;
+    margin-top: 40px;
+    opacity: 0.5;
+}
+.article{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.red{
+    margin-top: 40px;
+    color: red;
+}
+.text1{
+    margin-top: 10px;
+    opacity: 0.5;
+}
+.clock{
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0.5;
+    margin-top: 10px;
+    gap: 10px;
 }
