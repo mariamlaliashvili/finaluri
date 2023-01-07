@@ -167,3 +167,77 @@ font-weight: bold;
 .opac{
     opacity: 0.5;
 }
+.section3{
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    border: 2px solid black;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.both{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    width: 100%;
+    height: 95%;
+    margin-top: 19px;
+    position: relative;
+
+
+}
+.twophoto{
+    width: 65%;
+    height: 100%;
+    border: 2px solid rgb(26, 24, 24);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+    position: relative;
+}
+.pirveli2{
+    width: 100%;
+    height: 48%;
+    border: 2px solid rgb(26, 24, 24);
+    
+}
+.ptext{
+    position: absolute;
+    margin: 0 auto;
+}
+
+.two{
+    width: 100%;
+    height: 100%;
+}
+.threephoto{
+    width: 30%;
+    height: 100%;
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 60px;
+    margin-left: 58px;
+}
+
+.threetext{
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.sami{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 20%;
+
+}
+.three{
+    width: 100%;
+    height: 100%;
+}
