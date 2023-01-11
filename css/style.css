@@ -415,3 +415,21 @@ footer {
     opacity: .5;
     margin-left: 50px;
 }
+.article2{
+    width: 80%;
+    height: 831px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.spilo{
+    width: 100%;
+    height: 500px;
+}
+
+.spilotext{
+    width: 100%;
+    opacity: .5;
+    margin-top: 20px;
+}
