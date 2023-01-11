@@ -9,6 +9,7 @@
 }
 .logo{
     box-shadow: 3px 3px 5px red ;
+    width: 50px;
 }
 
 header {
@@ -86,10 +87,21 @@ ul {
     height: 40px;
     border-radius: 10px;
     margin-top: 30px;
-    background-color: palevioletred;
+    background-color: #d87093;
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: rotate(360deg);
+    transition-property: all;
+    /* transition-delay: 1s; */
+    transition-duration: 2s;
+
+}
+.pink:hover{
+    cursor: pointer;
+    background-color: rgb(171, 31, 241);
+    transform: rotate(360deg);
+    box-shadow: 5px 5px 10px #eb427b;
 }
 
 .pinktext {
@@ -196,6 +208,12 @@ h1 {
 
 .sectio2photo {
     width: 100%;
+    /* transition-delay: 1s; */
+    transition-duration: 3s;
+}
+.sectio2photo:hover{
+    cursor: pointer;
+    filter: grayscale(100%);
 }
 
 .s2text {
