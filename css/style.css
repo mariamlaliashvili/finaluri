@@ -1,10 +1,12 @@
-.conteiner{
+.conteiner {
     max-width: 1366px;
     width: 100%;
     margin: 0 auto;
     background: #f6f8f9;
+    /* border: 5px solid red; */
 }
-header{
+
+header {
     width: 100%;
     height: 50px;
     /* border: 2px solid black; */
@@ -12,38 +14,44 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 21px 19px 20px ;
+    padding: 21px 19px 20px;
 }
-ul{
+
+ul {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     font-size: 10px;
 }
-.home:hover{
-    border-bottom: 3px solid red;    
+
+.home:hover {
+    border-bottom: 3px solid red;
 }
 
-.opacity{
+.opacity {
     opacity: 0.5;
 }
-.section1{
+
+.section1 {
     display: flex;
     flex-wrap: wrap;
 }
-.first{
+
+.first {
     width: 70%;
     height: 599px;
     /* border: 2px solid black; */
     background-color: white;
     position: relative;
-   
+
 }
-.firstext{
+
+.firstext {
     position: absolute;
     margin: 170px auto 0 140px;
 }
-.line1{
+
+.line1 {
     width: 562px;
     height: 2px;
     margin-top: 60px;
@@ -51,18 +59,21 @@ ul{
     border-radius: 20px;
     /* opacity: 0.5; */
 }
-.p1{
+
+.p1 {
     font-size: 20px;
     color: #ffffff;
     font-weight: bold;
     margin-top: 40px;
 }
-.phototext{
+
+.phototext {
     margin-top: 10px;
     color: #ffffff;
     width: 520px;
 }
-.pink{
+
+.pink {
     width: 134px;
     height: 40px;
     border-radius: 10px;
@@ -72,36 +83,42 @@ ul{
     justify-content: center;
     align-items: center;
 }
-.pinktext{
+
+.pinktext {
     justify-content: center;
     align-items: center;
     color: #ffffff;
     font-size: 10px;
 }
-.photo1{
+
+.photo1 {
     width: 100%;
     height: 100%;
     position: absolute;
 }
-.second{
+
+.second {
     width: 30%;
     height: 599px;
     /* border: 2px solid black; */
     background-color: white;
 
 }
-.contsecond{
+
+.contsecond {
     width: 80%;
     /* border: 2px solid black; */
     margin: 80px auto 0 auto;
-    
-}
-h1{
-    font-size: 24px;
-font-weight: bold;
 
 }
-.line{
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.line {
     width: 300px;
     height: 2px;
     border-radius: 20px;
@@ -109,36 +126,43 @@ font-weight: bold;
     margin-top: 40px;
     opacity: 0.5;
 }
-.article{
+
+.article {
     margin-top: 10px;
     font-weight: bold;
 }
-.red{
+
+.red {
     margin-top: 40px;
     color: red;
 }
-.text1{
+
+.text1 {
     margin-top: 10px;
     opacity: 0.5;
 }
-.clock{
+
+.clock {
     display: flex;
     flex-wrap: wrap;
     opacity: 0.5;
     margin-top: 10px;
     gap: 10px;
 }
-.section2{
+
+.section2 {
     width: 80%;
     height: 400px;
     margin: 0 auto;
     /* border: 2px solid black; */
     margin-top: 40px;
 }
-.trending{
+
+.trending {
     font-weight: bold;
 }
-.cards{
+
+.cards {
     width: 100%;
     height: 350px;
     margin-top: 30px;
@@ -147,27 +171,33 @@ font-weight: bold;
     justify-content: space-between;
     align-items: center;
 }
-.card{
+
+.card {
     width: 30%;
     height: 350px;
     background-color: rgb(223, 221, 221);
-    
+
 }
-.sectio2photo{
+
+.sectio2photo {
     width: 100%;
 }
-.s2text{
+
+.s2text {
     font-weight: bold;
 }
-.s2textopocity{
+
+.s2textopocity {
     width: 300px;
     height: 30px;
     margin: 50px auto 0 auto;
 }
-.opac{
+
+.opac {
     opacity: 0.5;
 }
-.section3{
+
+.section3 {
     width: 80%;
     height: 700px;
     margin: 0 auto;
@@ -175,10 +205,11 @@ font-weight: bold;
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
-    
-    
+
+
 }
-.both{
+
+.both {
     display: flex;
     flex-wrap: wrap;
     /* border: 2px solid red; */
@@ -189,7 +220,8 @@ font-weight: bold;
 
 
 }
-.twophoto{
+
+.twophoto {
     width: 65%;
     height: 100%;
     /* border: 2px solid rgb(26, 24, 24); */
@@ -199,63 +231,89 @@ font-weight: bold;
     gap: 25px;
     position: relative;
 }
-.pirveli2{
+
+.pirveli2 {
     width: 100%;
     height: 48%;
     /* border: 2px solid rgb(26, 24, 24); */
-    
-}
-.ptext{
-    position: absolute;
-    margin: 0 auto;
+    position: relative;
+
 }
 
-.two{
+.ptext {
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    color: #ffffff;
+    padding: 40px 29px 80px 40px ;
+}
+.ptext2{
+    margin-top: 150px;
+}
+.ptext3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.two {
     width: 100%;
     height: 100%;
 }
-.threephoto{
-    width: 30%;
+
+.threephoto {
+    width: 29%;
     height: 100%;
     /* border: 2px solid red; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 60px;
+    gap: 60x;
     margin-left: 58px;
 }
 
-.threetext{
+.threetext {
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 50px;
     font-weight: bold;
 }
 
-.sami{
+.sami {
     /* border: 2px solid black; */
     width: 100%;
     height: 20%;
 
 }
-.three{
+
+.three {
     width: 100%;
     height: 100%;
 }
-footer{
+
+footer {
     width: 100%;
-    height: 150px;
+    height: 200px;
     background-color: gray;
     margin-top: 100px;
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
-    align-items: center;
     padding-left: 145px;
+    align-items: center;
 
 }
-.icon{
+
+.ftdiv1 {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 15px;
+
+}
+
+.icon {
     width: 200px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 800px;
+    margin-left: 600px;
+    align-items: center;
+    justify-content: flex-end;
     gap: 30px;
 }
