@@ -317,3 +317,51 @@ footer {
     justify-content: flex-end;
     gap: 30px;
 }
+
+.secondeconteiner{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    background: #f6f8f9;
+}
+.section4{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #ffffff;
+
+}
+.pirvelicont{
+    width: 50%;
+    height: 500px;
+    /* border: 2px solid black; */
+    background-color: white;
+    background-image: url(../photo/Image\ \(4\).png);
+    position: relative;
+}
+.WORLDNEWS{
+   padding: 230px 192px 230px 195px;
+   font-size: 20px;
+   color: #ffffff;
+   font-weight: bold;
+}
+.meorecont{
+    width: 50%;
+    height: 500px;
+    /* border: 2px solid black; */
+    background-color: white; 
+    padding: 145px 110px 0 110px;
+    
+}
+.date{
+    width: 360px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(212, 209, 209);
+    margin-top: 10px;
+}
+.enterthe{
+    margin-top: 60px;
+}
