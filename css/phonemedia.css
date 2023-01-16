@@ -1,0 +1,23 @@
+@media(max-width: 480px){
+    .conteiner{
+        width: 100%;
+    }
+    .photo1{
+        width: 100%;
+    }
+    
+    .card {
+        width: 100%;
+    }
+    .ftdiv1{
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    .card {
+        height: 60%;
+    }
+    .twophoto{
+        margin-top: 100px;
+        height: 90%;
+    }
+}
