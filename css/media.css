@@ -1,0 +1,32 @@
+@media(max-width: 730px){
+    /* header{
+        display: flex;
+        flex-wrap: wrap;
+    } */
+    .first {
+        width: 100%;
+    }
+    .second{
+        width: 100%;
+    }
+    .card {
+        width: 40%;
+    }
+    .twophoto{
+        width: 100%;
+    }
+    .threephoto{
+       display: none;
+    }
+    footer{
+        width: 100%;
+    }
+    .icon{
+        border: 2px solid red;
+        margin-right: 600px;
+        margin-bottom: 100px;
+    }
+    id{
+        display: none;
+    }
+}
