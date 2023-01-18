@@ -27,7 +27,6 @@
     
     .both{
     width: 100%;
-    /* border: 2px solid red; */
     margin-top: 360px;
     height: 650px;
 }
@@ -36,6 +35,9 @@
        
         width: 100%;
        
+    }
+    .ptext3{
+        margin-top: 0;
     }
     .ftdiv1{
         display: none;
