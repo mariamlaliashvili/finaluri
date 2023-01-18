@@ -3,6 +3,20 @@
     .first {
         width: 100%;
     }
+    .firstext{
+        /* border: 2px solid red; */
+        margin: 170px auto 0 10px;;
+
+    }
+    .phototext{
+        width: 430px;
+    }
+    .line1{
+        width: 430px;
+    }
+    .p1{
+        width: 425px;
+    }
     .second{
         width: 100%;
     }

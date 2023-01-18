@@ -251,7 +251,7 @@ h1 {
 .sectio2photo:hover{
     cursor: pointer;
     filter: grayscale(100%);
-    transform: scale(1.5);
+    transform: scale(0.8);
 }
 
 .s2text {
