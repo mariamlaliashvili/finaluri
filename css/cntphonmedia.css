@@ -21,6 +21,13 @@
         height: 100%;
         font-size: 15px;
     }
+    .spilo{
+        height: 180px;
+    }
+    .article2text{
+        height: 352px;
+        margin-bottom: 100px;
+    }
     .ftdiv1{
         display: none;
     }
