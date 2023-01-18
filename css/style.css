@@ -327,12 +327,11 @@ h1 {
 
 .threephoto {
     width: 29%;
-    height: 100%;
+    height: 90%;
     border: 2px solid red;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
-    gap: 60x;
     margin-left: 58px;
 }
 
