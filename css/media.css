@@ -1,8 +1,5 @@
 @media(max-width: 730px){
-    /* header{
-        display: flex;
-        flex-wrap: wrap;
-    } */
+   
     .first {
         width: 100%;
     }
@@ -10,23 +7,36 @@
         width: 100%;
     }
     .card {
-        width: 40%;
+        width: 43%;
     }
+    .opac{
+        width: 70%;
+    }
+  
     .twophoto{
         width: 100%;
     }
     .threephoto{
-       display: none;
+        display: none;
+    }
+    .three{
+     display: flex;
+     flex-wrap: wrap;
+    }
+    .sami{
+        display: flex;
+        flex-wrap: wrap;
+        width: 40%;
+       
     }
     footer{
         width: 100%;
     }
     .icon{
-        border: 2px solid red;
-        margin-right: 600px;
+        /* border: 2px solid red; */
         margin-bottom: 100px;
     }
-    id{
+    .none{
         display: none;
     }
 }

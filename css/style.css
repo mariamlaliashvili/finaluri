@@ -8,8 +8,42 @@
     z-index: 1; */
 }
 .logo{
-    box-shadow: 3px 3px 5px red ;
-    width: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: blue;
+}
+span:nth-child(1){
+    animation: anime1 3s linear 1.5s infinite;
+}
+@keyframes anime1{
+    100%{
+        color: red;
+    }
+}
+span:nth-child(2){
+    animation: anime2 3s linear 2s infinite;
+}
+@keyframes anime2{
+    100%{
+        color: red;
+    }
+}
+span:nth-child(3){
+    animation: anime3 3s linear 2.5s infinite;
+}
+@keyframes anime3{
+    100%{
+        color: red;
+    }
+}
+span:nth-child(4){
+    animation: anime4 3s linear 3s infinite;
+}
+@keyframes anime4{
+    100%{
+        color: red;
+    }
 }
 
 header {
@@ -236,24 +270,20 @@ h1 {
 
 .section3 {
     width: 80%;
-    height: 700px;
+    /* height: 700px; */
     margin: 0 auto;
     /* border: 2px solid black; */
     margin-top: 40px;
-    display: flex;
-    flex-wrap: wrap;
-
-
 }
 
 .both {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* border: 2px solid red; */
     width: 100%;
-    height: 95%;
+    height: 900px;
     margin-top: 19px;
-    position: relative;
+    justify-content: space-between;
 
 
 }
@@ -263,10 +293,9 @@ h1 {
     height: 100%;
     /* border: 2px solid rgb(26, 24, 24); */
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    /* justify-content: space-between; */
     gap: 25px;
-    position: relative;
 }
 
 .pirveli2 {
@@ -299,7 +328,7 @@ h1 {
 .threephoto {
     width: 29%;
     height: 100%;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -331,27 +360,28 @@ footer {
     background-color: gray;
     margin-top: 100px;
     display: flex;
-    flex-wrap: wrap;
-    padding-left: 145px;
-    align-items: center;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    padding: 56px 10%;
 
 }
 
+.footdiv{
+    display: flex;
+    gap: 50px;
+}
 .ftdiv1 {
-    display: inline-block;
-    margin-left: 30px;
-    margin-top: 50px;
+    
     font-size: 15px;
 
 }
+.ftphoto{
+    width: 40px;
+    height: 20px;
+}
 
 .icon {
-    width: 200px;
     display: flex;
-    flex-wrap: wrap;
-    margin-left: 600px;
-    align-items: center;
-    justify-content: flex-end;
     gap: 30px;
 }
 

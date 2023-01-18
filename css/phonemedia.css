@@ -5,19 +5,46 @@
     .photo1{
         width: 100%;
     }
+    .cards{
+        
+       /* border: 2px solid red; */
+       height: 650px;
+       width: 100%;
+
+    }
     
     .card {
+      width: 100%;  
+      height: 30px;
+      margin-bottom: 300px;
+    }
+    
+    .opac{
         width: 100%;
+       
+    }
+    
+    
+    .both{
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 360px;
+    height: 650px;
+}
+    
+    .twophoto{
+       
+        width: 100%;
+       
     }
     .ftdiv1{
-        margin-top: 0px;
-        font-size: 15px;
+        display: none;
     }
-    .card {
-        height: 60%;
+    .ftphoto{
+        display: none;
     }
-    .twophoto{
-        margin-top: 100px;
-        height: 90%;
-    }
+   .icon{
+   
+    gap: 100px;
+   }
 }

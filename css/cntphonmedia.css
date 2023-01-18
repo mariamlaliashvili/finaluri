@@ -1,0 +1,38 @@
+@media(max-width: 480px){
+    .article1{
+        width: 80%;
+        height: 550px;
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-between;
+        
+    }
+    .meorecont{
+        width: 100%;
+    
+    }
+   
+    .artcopecity{
+        width: 85%;
+        height: 30%;
+        /* border: 2px solid red; */
+        margin-top: 70px;
+       
+    }
+    #ptext{
+        width: 100%;
+        height: 100%;
+        font-size: 15px;
+    }
+    .ftdiv1{
+        display: none;
+    }
+    .ftphoto{
+        display: none;
+    }
+    .icon{
+    
+    gap: 100px;
+    }
+}
+
