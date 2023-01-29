@@ -36,20 +36,32 @@
     .twophoto{
         width: 100%;
     }
+    /* .ptext3{
+        margin-top: 180px;
+    }
+    .both{
+        flex-direction: column;
+    } */
 
     .threephoto{
         display: none;
+        /* margin-top: 100px;
+        height: 150px;
+        width: 90%;
+        flex-wrap: wrap; */
     }
-    .three{
+    /* .three{
      display: flex;
      flex-wrap: wrap;
+     width: 100%;
+     height: 80px;
     }
     .sami{
         display: flex;
         flex-wrap: wrap;
-        width: 40%;
+        width: 50%;
        
-    }
+    } */
     footer{
         width: 100%;
     }
