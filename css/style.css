@@ -57,6 +57,8 @@ header {
     position: fixed;
     top: 0;
     z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
 }
 nav{
     display: flex;
@@ -68,6 +70,12 @@ nav{
     flex-wrap: wrap;
     gap: 20px;
     font-size: 10px;
+}
+.burger{
+    display: none;
+}
+.mark{
+    display: none;
 }
 
 

@@ -1,4 +1,27 @@
 @media(max-width: 730px){
+    .burger{
+        display: block;
+    }
+    .mark{
+        display: block;
+    }
+  
+    .ul{
+        width: 100%;
+        position: fixed;
+        top: 56.8px;
+        left: -101%;
+        align-items: center;
+        gap: 0;
+        justify-content: space-around;
+        background-color: rgba(11, 5, 47, 0.5);
+        height: 150px;
+        flex-direction: column;
+        transition: 1s linear;
+    }
+    .show{
+        left: 0;
+    }
     .pirvelicont{
         width: 100%;
     }
