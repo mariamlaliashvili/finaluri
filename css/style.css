@@ -3,9 +3,7 @@
     width: 100%;
     margin: 0 auto;
     background: #f6f8f9;
-    /* border: 5px solid red; */
-    /* position: fixed;
-    z-index: 1; */
+   
 }
 .logo{
     font-size: 15px;
@@ -65,18 +63,12 @@ nav{
     flex-wrap: wrap;
 }
 
-ul {
+.ul {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     font-size: 10px;
 }
-/* .burger{
-    display: none;
-}
-.mark{
-    display: none;
-} */
 
 
 .home:hover {
@@ -346,7 +338,7 @@ h1 {
 .threephoto {
     width: 29%;
     height: 90%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
