@@ -44,4 +44,9 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .icon{
+        /* border: 2px solid red; */
+        margin-bottom: 100px;
+        margin-left: 15px;
+    }
 }
