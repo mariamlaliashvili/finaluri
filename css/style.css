@@ -71,10 +71,13 @@ ul {
     gap: 20px;
     font-size: 10px;
 }
-/* .fa-bars{
-margin-left: 10px;
-justify-content: center;
+/* .burger{
+    display: none;
+}
+.mark{
+    display: none;
 } */
+
 
 .home:hover {
     border-bottom: 3px solid red;
